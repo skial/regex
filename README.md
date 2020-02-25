@@ -16,6 +16,14 @@
 - [seri](https://github.com/skial/seri) - _Unicode blocks, scripts, classes & range information_.
 - [unifill](https://github.com/skial/unifill) - _Haxe library for Unicode UTF{8/16/32} support_
 
+#### Tested Platforms
+- Tested ✅
+- Untested ➖
+
+| Php | Python | Java | C# | Js/Node | Interp | Neko | HashLink | Lua | CPP | Flash
+| - | -| - | - | - | -| - | - | - | - | - |
+| ✅ | ✅ | ✅  | ✅ | ✅ | ✅ | ✅  | ✅ | ➖ | ➖ | ➖ |
+
 ### Usage
 
 ```Haxe
