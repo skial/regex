@@ -1,0 +1,6 @@
+-D seri=0.0.1-alpha
+# @install: lix --silent download "gh://github.com/skial/seri#3e6703aca75f4e6b7f2f250fb7d918a205ef510f" into seri/0.0.1-alpha/github/3e6703aca75f4e6b7f2f250fb7d918a205ef510f
+-lib format
+-lib tink_core
+-lib unifill
+-cp ${HAXE_LIBCACHE}/seri/0.0.1-alpha/github/3e6703aca75f4e6b7f2f250fb7d918a205ef510f/src

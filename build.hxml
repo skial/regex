@@ -1,0 +1,50 @@
+-lib seri
+-lib tink_unittest
+
+-cp src
+-cp test
+
+#-debug
+-dce full
+-D analyzer-optimize
+-D eval-stack
+
+-main Entry
+
+--each
+
+-lib hxnodejs
+-js bin/regex.js
+
+--next 
+
+-D js-es=5
+-js bin/regex5.js
+
+#--next
+#
+#-neko bin/regex.n
+#
+#--next
+#
+#-hl bin/regex.hl
+#
+#--next
+#
+#-java bin/java
+#
+#--next
+#
+#-cs bin/cs
+#
+#--next
+#
+#-python bin/regex.py
+#
+#--next
+#
+#-php bin/php
+
+--next
+
+--interp
