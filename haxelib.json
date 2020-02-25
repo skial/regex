@@ -1,0 +1,14 @@
+{
+    "name": "regex",
+    "url": "https://github.com/skial/regex",
+    "tags": ["cross", "unicode", "regex", "ereg"],
+    "description": "Helper methods to cross-compile Unicode regular expressions.",
+    "version": "0.0.1",
+    "releasenote": "Initial release.",
+    "classPath": "src/",
+    "contributors": ["skial"],
+    "dependencies": {
+        "seri": "git:https://github.com/skial/seri.git#3e6703aca75f4e6b7f2f250fb7d918a205ef510f",
+        "tink_unittest": "git:https://github.com/haxetink/tink_unittest.git#6a242452deeb34fd42a6fa865b11d42d3cba551d"
+    }
+}
