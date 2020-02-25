@@ -21,29 +21,29 @@
 -D js-es=5
 -js bin/regex5.js
 
-#--next
-#
-#-neko bin/regex.n
-#
-#--next
-#
-#-hl bin/regex.hl
-#
-#--next
-#
-#-java bin/java
-#
-#--next
-#
-#-cs bin/cs
-#
-#--next
-#
-#-python bin/regex.py
-#
-#--next
-#
-#-php bin/php
+--next
+
+-neko bin/regex.n
+
+--next
+
+-hl bin/regex.hl
+
+--next
+
+-java bin/java
+
+--next
+
+-cs bin/cs
+
+--next
+
+-python bin/regex.py
+
+--next
+
+-php bin/php
 
 --next
 
