@@ -5,6 +5,8 @@
 ###### _Note_
 > Currently, all the code in this repo has been pulled out of the [rxpattern](https://github.com/skial/rxpattern) rewrite.
 
+> The file/library regenerate.js is created by [@mathiasbynens](https://github.com/mathiasbynens). Core functionality was ported to Haxe, see [`utf16/RangeUtil.hx`](https://github.com/skial/regex/blob/master/src/be/regex/utf16/RangeUtil.hx).
+
 ### Install
 
 `lix install gh:skial/regex`
