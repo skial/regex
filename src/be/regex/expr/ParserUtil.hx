@@ -23,13 +23,11 @@ class ParserUtil {
     #end
 
     public macro static function pattern(s:String):ExprOf<String> {
-        trace(s);
         var pos = Context.currentPos();
         return macro @:pos(pos) $v{be.regex.std.ParserUtil.pattern(s, perlStyle, jsStyle, onlyBMP, pos)};
     }
 
     public macro static function category(category:String):ExprOf<String> {
-        trace(category);
         var pos = Context.currentPos();
         return if (((JavaScript && category.length == 1) || !(NodeJS || (ES_ && ES_ > 5))) && (jsStyle || pythonStyle || Cpp)) {
             macro @:Disjunction $v{be.regex.std.ParserUtil.category(category, pythonStyle, perlStyle, jsStyle, onlyBMP, pos)};
