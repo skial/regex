@@ -7,7 +7,7 @@ import be.regex.RegexErrors;
 import uhx.sys.seri.Category;
 
 typedef Pos = 
-#if (macro || eval) 
+#if (interp || eval || macro) 
     haxe.macro.Expr.Position 
 #else 
     haxe.PosInfos 
@@ -24,7 +24,7 @@ class ParserUtil {
     */
 
     private static function error(message:String, ?pos:Pos) {
-        #if (macro || eval)
+        #if (interp || eval || macro)
         haxe.macro.Context.error(message, pos);
         #else
         throw message;

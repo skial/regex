@@ -1,5 +1,6 @@
 package be.regex;
 
+import be.regex.Util;
 import be.Regex;
 /**
     Only the JavaScript implementation is
@@ -50,6 +51,8 @@ class RegexSpec {
 
         // a⁴ +
         trace( regexp.matched(0) );
+
+        trace( Util.bar() );
 
         return asserts.done();
     }
