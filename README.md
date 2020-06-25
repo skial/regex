@@ -20,9 +20,9 @@
 - Tested ✅
 - Untested ➖
 
-| Php | Python | Java | C# | Js/Node | Interp | Neko | HashLink | Lua | CPP | Flash
-| - | -| - | - | - | -| - | - | - | - | - |
-| ✅ | ✅ | ✅  | ✅ | ✅ | ✅ | ✅  | ✅ | ➖ | ➖ | ➖ |
+| Php | Python | Java | JVM | C# | Js/Node | Interp | Neko | HashLink | Lua | CPP | Flash
+| - | -| - | - | - | -| - | - | - | - | - | - |
+| ✅ | ✅ | ✅  | ✅  | ✅ | ✅ | ✅ | ✅  | ✅ | ➖ | ➖ | ➖ |
 
 ### Usage
 
@@ -42,8 +42,7 @@ class Main {
         /**
             Why `²-¹⁰-⁹`?
             `²-¹` are `\u00B2-\u00B9` and `⁰-⁹` are `\u2080-\u2089`, so if you 
-            used `⁰-⁹` you would include far more codepoints than you intended.
-            Regex wont stop you from making these type of errors.
+            used `⁰-⁹` you would only include `⁰`, `⁴`, `⁵`, `⁶`, `⁷`, `⁸`, `⁹`.
             ---
             See https://codepoints.net/search?gc=No for more info.
         **/
@@ -61,7 +60,7 @@ class Main {
             - (\p{Ll}[²-¹⁰-⁹]), (?:[ +]*)
             
             For those that don't:
-            - For those that don't, _skipping afew so not to show 1900+ codepoints_:
+            - _skipping afew so not to show 1900+ codepoints_:
             - [a-z\\xB5\\xDF-\\xF6\\xF8-\\xFF\\u0101\\u0103\\u0105...|\\uD83A[\\uDD22-\\uDD43]
             
         **/

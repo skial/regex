@@ -35,6 +35,11 @@
 
 --next
 
+-D jvm
+-java bin/jvm
+
+--next
+
 -cs bin/cs
 
 --next
