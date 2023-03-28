@@ -1,0 +1,12 @@
+# @install: lix --silent download "gh://github.com/skial/range#7a35e20d080a879e6d58dd4633dc5c41db552f71" into range/0.0.0/github/7a35e20d080a879e6d58dd4633dc5c41db552f71
+-lib ansi
+-lib tink_core
+-lib tink_macro
+-lib tink_priority
+-lib tink_streams
+-lib tink_syntaxhub
+-lib tink_testrunner
+-lib tink_unittest
+-lib unifill
+-cp ${HAXE_LIBCACHE}/range/0.0.0/github/7a35e20d080a879e6d58dd4633dc5c41db552f71/src
+-D range=0.0.0

@@ -1,4 +1,5 @@
 -lib seri
+-lib range
 -lib tink_unittest
 
 -cp src
@@ -19,6 +20,7 @@
 --next 
 
 -D js-es=5
+-lib hxnodejs
 -js bin/regex5.js
 
 --next
@@ -48,6 +50,7 @@
 
 --next
 
+--macro addGlobalMetadata('ANSI.Attribute', "@:native('ANSIAttribute')", false)
 -php bin/php
 
 --next
