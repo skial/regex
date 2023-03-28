@@ -1,0 +1,15 @@
+-lib seri
+-lib range
+-lib tink_unittest
+
+-cp src
+-cp test
+
+#-debug
+-dce full
+-D analyzer-optimize
+-D eval-stack
+
+-main Entry
+
+--interp
